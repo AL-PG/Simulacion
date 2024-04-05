@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.pruebaks.HelloController">
+   <children>
+      <TableView fx:id="tabla" layoutY="61.0" prefHeight="342.0" prefWidth="510.0">
+        <columns>
+            <TableColumn fx:id="Coli" prefWidth="50.20001298189163" text="i" />
+            <TableColumn fx:id="ColXi" prefWidth="57.399986267089844" text="Xi" />
+            <TableColumn fx:id="ColN" prefWidth="64.19999694824219" text="i/n" />
+            <TableColumn fx:id="ColNX" prefWidth="59.399993896484375" text="(i/n)-Xi" />
+            <TableColumn fx:id="ColAbsNX" prefWidth="83.80001831054688" text="Abs((i/n)-Xi)" />
+            <TableColumn fx:id="ColXN" prefWidth="75.0" text="Xi-((i-1)/n)" />
+            <TableColumn fx:id="ColAbsXN" prefWidth="97.79998779296875" text="Abs((Xi-((i-1)/n)" />
+        </columns>
+      </TableView>
+      <Button fx:id="boton1" layoutX="521.0" layoutY="19.0" mnemonicParsing="false" onAction="#boton1" prefHeight="26.0" prefWidth="91.0" text="Calcular" />
+      <TextField fx:id="txtDatos" layoutX="20.0" layoutY="19.0" prefHeight="26.0" prefWidth="340.0" promptText="Datos" />
+      <Label layoutX="524.0" layoutY="64.0" text="N" />
+      <Label layoutX="521.0" layoutY="90.0" text="D+" />
+      <Label layoutX="522.0" layoutY="122.0" text="D-" />
+      <Label layoutX="524.0" layoutY="152.0" text="D" />
+      <Label layoutX="374.0" layoutY="23.0" text="NC" />
+      <Label fx:id="labelN" layoutX="548.0" layoutY="64.0" prefHeight="18.0" prefWidth="70.0" text="Label" />
+      <Label fx:id="labelDm" layoutX="548.0" layoutY="90.0" prefHeight="18.0" prefWidth="70.0" text="Label" />
+      <Label fx:id="labelDme" layoutX="548.0" layoutY="122.0" prefHeight="18.0" prefWidth="70.0" text="Label" />
+      <Label fx:id="labelD" layoutX="548.0" layoutY="152.0" prefHeight="18.0" prefWidth="70.0" text="Label" />
+      <Label layoutX="537.0" layoutY="232.0" text="Valor Critico" />
+      <Label fx:id="labelValorC" alignment="BASELINE_CENTER" layoutX="524.0" layoutY="266.0" prefHeight="18.0" prefWidth="91.0" text="Label" />
+      <Label layoutX="543.0" layoutY="307.0" text="Resultado" />
+      <Label fx:id="labelResultado" alignment="BASELINE_CENTER" layoutX="524.0" layoutY="345.0" prefHeight="18.0" prefWidth="91.0" text="Label" />
+      <ChoiceBox fx:id="NC" layoutX="401.0" layoutY="19.0" prefHeight="26.0" prefWidth="101.0" />
+   </children>
+</AnchorPane>

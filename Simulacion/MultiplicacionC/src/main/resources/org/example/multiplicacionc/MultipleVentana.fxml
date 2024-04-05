@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="424.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.multiplicacionc.MultipleVentana">
+   <children>
+      <TableView fx:id="Tabla" layoutY="32.0" prefHeight="392.0" prefWidth="592.0">
+        <columns>
+            <TableColumn fx:id="ColX" prefWidth="63.999996185302734" text="X" />
+            <TableColumn fx:id="ColNA" prefWidth="99.39999389648438" text="-" />
+            <TableColumn fx:id="ColAX0" prefWidth="164.59999084472656" text="A*X0" />
+            <TableColumn fx:id="ColExt" prefWidth="115.0" text="EXTRACCION" />
+            <TableColumn fx:id="ColPsu" prefWidth="135.0" text="PSEUDOALEATORIOS" />
+        </columns>
+      </TableView>
+      <ToolBar prefHeight="32.0" prefWidth="592.0">
+        <items>
+            <Label prefHeight="18.0" prefWidth="20.0" text="A =" />
+            <Label fx:id="LabelA" text="Label" />
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>

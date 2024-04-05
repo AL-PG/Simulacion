@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="org.example.multiplicacionc.HelloController" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="90.0" layoutY="14.0" prefHeight="50.0" prefWidth="170.0" text="MULTIPLICACION CONSTANTE" />
+      <Label layoutX="67.0" layoutY="81.0" text="A" />
+      <Label layoutX="64.0" layoutY="118.0" text="X0" />
+      <Label layoutX="35.0" layoutY="151.0" text="Iteraciones" />
+      <TextField fx:id="TextFieldA" layoutX="100.0" layoutY="77.0" />
+      <TextField fx:id="TextFieldX0" layoutX="100.0" layoutY="114.0" />
+      <TextField fx:id="TextFieldIT" layoutX="100.0" layoutY="147.0" />
+      <Button fx:id="boton1" onAction="#boton1" layoutX="99.0" layoutY="187.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Calcular" />
+   </children>
+</AnchorPane>
